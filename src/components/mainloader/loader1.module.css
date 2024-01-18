@@ -1,0 +1,30 @@
+/* loader1.module.css */
+
+.hibro {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.waviy {
+  position: relative;
+}
+
+.waviy span {
+  position: relative;
+  display: inline-block;
+  font-size: 40px;
+  color: #0a061d;
+  text-transform: uppercase;
+  animation: flip 2s infinite;
+  animation-delay: calc(0.2s * var(--i));
+  margin-right: 9px; /* Increase the margin to control the space between letters */
+}
+
+@keyframes flip {
+  0%, 80% {
+    transform: rotateY(360deg);
+  }
+}

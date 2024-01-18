@@ -1,0 +1,76 @@
+.root {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.divinput {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+
+.h1 {
+    text-align: center;
+    height: 115px;
+    font-size: 48px;
+    width: 99.9%;
+    @media (max-width: 750px) {
+        font-size: 40px;
+        font-weight: 500;
+    }
+}
+
+.maindi {}
+
+.maindiv {
+    display: inline-block;
+    grid-auto-flow: row;
+    width: 100%;
+    height: 57%;
+}
+
+.button {
+    margin: 15px;
+    overflow: visible;
+    width: 270px;
+    height: 170px;
+    cursor: pointer;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    opacity: 1;
+    border: 0px solid transparent;
+}
+
+.h1 {}
+
+.h123 {
+    height: 170px;
+    direction: ltr;
+    text-transform: none;
+}
+
+.img {}
+
+.divmain1 {
+    height: 170px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {}
+
+.maxwidth {
+    width: 1200px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}

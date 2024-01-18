@@ -1,0 +1,225 @@
+.root {
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    flex-wrap: wrap;
+    align-content: center;
+    background-color: rgb(226 226 226);
+}
+
+.h3 {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.input {
+    height: 46px;
+    width: 68%;
+}
+
+.div1 {
+    display: grid;
+    grid-auto-flow: row dense;
+    gap: 15px;
+    padding: 50px;
+    background-color: rgb(255 255 255);
+    width: 79%;
+    margin: 60px;
+    border-radius: 20px;
+}
+
+.input2 {
+    height: 46px;
+    width: 28%;
+}
+
+.div2 {
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    width: 99.7%;
+}
+
+.input3 {
+    height: 46px;
+    width: 99%;
+}
+
+.input4 {
+    height: 46px;
+    width: 99%;
+}
+
+.input5 {
+    height: 46px;
+    width: 40%;
+}
+
+.option {
+    display: inline-block;
+    width: 57%;
+    height: 51px;
+}
+
+.div3 {
+    display: flex;
+    justify-content: space-between;
+    width: 99.7%;
+}
+
+.input6 {
+    height: 46px;
+    width: 99%;
+    border-radius: 6px;
+}
+
+.select {
+    height: 46px;
+    width: 30%;
+}
+
+.div4 {
+    display: flex;
+    justify-content: space-between;
+    width: 99%;
+}
+
+.input7 {
+    width: 30%;
+    height: 46px;
+    background-color: #3d8d42;
+    cursor: pointer;
+}
+
+.di5 {}
+
+.div5 {
+    display: flex;
+    justify-content: space-between;
+    width: 99%;
+}
+
+.p1 {
+    text-align: justify;
+}
+
+.div6 {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    width: 17%;
+    height: 54px;
+    border-radius: 30px;
+    background-color: #db5461;
+    color: white;
+}
+
+.round {
+    border-radius: 8px;
+    height: 44px;
+}
+
+.p12 {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.rounds {
+    border-radius: 20px;
+}
+
+
+/* Existing styles for current resolution */
+
+/* Media Query for 750px or less */
+/* Existing styles for current resolution */
+
+/* Media Query for 750px or less */
+/* Existing styles for current resolution */
+
+/* Media Query for 750px or less */
+@media (max-width: 750px) {
+    .div {
+        background-color: rgb(226, 226, 226);
+    }
+
+    .div1 {
+        width: 100%;
+        margin: 20px;
+        /* Adjust margin for smaller screens */
+        padding: 20px;
+        /* Adjust padding for smaller screens */
+    }
+
+    .input,
+    .input2,
+    .input3,
+    .input4,
+    .input5,
+    .input6,
+    .input7,
+    .select {
+        height: 44px;
+        /* Set a specific height for all input elements */
+        width: 100%;
+    }
+
+    .div2 {
+        flex-direction: column;
+        /* Stack inputs vertically on smaller screens */
+        align-items: center;
+        gap: 13px;
+        height: 105px;
+    }
+
+    .div3,
+    .div4,
+    .div5 {
+        flex-direction: column;
+        /* Stack elements vertically on smaller screens */
+        align-items: center;
+        gap: 13px;
+    }
+
+    .button {
+        width: 100%;
+    }
+
+    .round {
+        border-radius: 8px;
+        width: 98%;
+    }
+
+    .rounds {
+        border-radius: 20px;
+    }
+}
+
+/* Media Query for 950px or less */
+@media (max-width: 950px) {
+
+    .input,
+    .input2 {
+        height: 44px;
+        /* Set a specific height for input and input2 at 950px */
+    }
+}
+
+.o {
+    display: flex;
+    height: 35px;
+}
+
+.i {}

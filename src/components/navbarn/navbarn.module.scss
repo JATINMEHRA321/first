@@ -1,0 +1,34 @@
+.root {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #3d8d42;
+    top: 0px;
+    align-items: center;
+}
+
+.firstdiv {
+    height: 8vh;
+    display: flex;
+    direction: ltr;
+    justify-content: center;
+    align-items: center;
+}
+
+.h2 {
+    text-align: center;
+}
+
+.prodiv {
+    width: 100%;
+    height: 15px;
+    background-color: #ffae40;
+}
+
+.yellow {
+    width: 100%;
+    background-color: rgb(255 174 64);
+    height: 8%;
+}

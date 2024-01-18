@@ -1,0 +1,149 @@
+.root {}
+
+.div1 {
+    width: 100%;
+    position: relative;
+    height: 90vh;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.div2 {
+    position: relative;
+    text-align: start;
+    left: 22%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    height: 53%;
+    bottom: 75%;
+    width: 55%;
+    opacity: 0.9;
+}
+
+.div3 {
+    display: inline-block;
+    width: 87%;
+}
+
+.h1 {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-style: normal;
+    height: 45px;
+}
+
+.p1 {
+    width: 65%;
+    text-align: justify;
+    text-transform: none;
+    text-decoration-line: none;
+}
+
+.div4 {
+    display: flex;
+    justify-content: center;
+}
+
+.div5 {
+    display: flex;
+    justify-content: center;
+    margin: 4px;
+}
+
+.div6 {
+    display: flex;
+    justify-content: center;
+    height: 65px;
+    align-items: center;
+}
+
+.input {
+    border-radius: 8px;
+    width: 90%;
+    height: 40px;
+}
+
+.button {
+    width: 75%;
+    background-color: #3d8d42;
+    border-radius: 25px;
+    color: white;
+}
+
+@media (max-width: 950px) {
+    .div1 {
+        height: 90vh;
+        width: auto;
+    }
+
+    .div2 {
+        position: relative;
+        text-align: start;
+        left: 22%;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 18px;
+        bottom: 75%;
+        width: 65%;
+        opacity: 0.9;
+        transform: translateX(-50%);
+        /* Center horizontally using translate */
+        left: 50%;
+        gap: 4px;
+        height: 64%;
+    }
+
+    .div3 {
+        width: 100%;
+        height: auto;
+        /* Change this to auto */
+        margin-top: 103px;
+        margin-bottom: 103px;
+        margin-top: 0px;
+        margin-right: 20px;
+        margin-bottom: 0px;
+        margin-left: 20px;
+    }
+
+    .h1 {
+        height: auto;
+    }
+
+    .p1 {
+        width: 100%;
+    }
+
+    .div6 {
+        height: auto;
+    }
+
+    .input {
+        width: 100%;
+    }
+
+    .button {
+        width: 100%;
+    }
+}
+
+.img {
+    width: 100%;
+    /* Make the height adjust automatically based on the width */
+    /* Set maximum height to 90vh */
+    text-align: start;
+    object-fit: cover;
+    /* Maintain aspect ratio and cover the container */
+}

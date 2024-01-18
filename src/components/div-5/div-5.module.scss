@@ -1,0 +1,64 @@
+.root {
+    direction: ltr;
+}
+
+.div51 {
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1a2722;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        height: auto;
+    }
+}
+
+.div511 {
+    width: 408px;
+    height: 130px;
+    display: flex;
+
+    @media (max-width: 650px) {
+        width: 100%;
+        max-width: 300px; /* Adjust the max-width for smaller screens */
+        margin-bottom: 20px; /* Add spacing between div511 items */
+    }
+}
+
+.div5111 {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+
+    @media (max-width: 650px) {
+        width: 100%;
+    }
+}
+
+.div5112 {
+    width: 60%;
+    display: flex;
+    height: 100%;
+    direction: ltr;
+    align-items: center;
+
+    @media (max-width: 650px) {
+        width: 100%;
+        text-align: center; /* Center text for smaller screens */
+    }
+}
+
+.p {
+    display: inline-block;
+    color: white;
+}
+
+.p {
+    @media (max-width: 650px) {
+        text-align: center; /* Center text for smaller screens */
+    }
+}

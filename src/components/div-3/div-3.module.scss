@@ -1,0 +1,96 @@
+.root {}
+
+.div3 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+    @media (max-width: 645px) {
+        .div31 {
+            display: none;
+            /* Hide the image at 645px and below */
+            direction: ltr;
+        }
+    }
+
+    @media (max-width: 1000px) {
+        .div31 {
+            display: none;
+            /* Hide the image at 1000px and below */
+        }
+    }
+}
+
+.div31 {
+    width: 624px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-image: url(./gift.jpg);
+    background-position: 55% 92%;
+    background-size: cover;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-clip: border-box;
+    background-color: transparent;
+    margin: 2px;
+}
+
+.div32 {
+    display: inline-block;
+    width: 624px;
+    text-align: center;
+    /* Center text horizontally */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    @media (max-width: 645px) {
+        width: 100%;
+    }
+
+    @media (max-width: 768px) {
+        /* Add styles for 768px and below if needed */
+    }
+
+    margin: 30px;
+    direction: ltr;
+}
+
+@media (max-width: 1000px) {
+    .div32 {
+        width: 90%;
+    }
+}
+
+.div321 {}
+
+.div322 {
+    direction: ltr;
+    text-align: justify;
+}
+
+.div323 {
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    direction: ltr;
+}
+
+.h1 {
+    direction: ltr;
+
+    @media (max-width: 768px) {
+        font-size: 40px;
+    }
+
+    text-align: center;
+}
+
+.buttondiv3 {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    width: 150px;
+}

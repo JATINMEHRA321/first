@@ -1,0 +1,47 @@
+.root {
+    display: flex;
+    justify-content: center;
+    background-color: #db5461;
+    align-items: center;
+}
+
+.div41 {
+    width: 624px;
+
+    @media (max-width: 768px) {}
+
+    margin:30px;
+}
+
+
+.h41 {
+    text-align: center;
+    direction: ltr;
+    color: white;
+
+    @media (max-width: 810px) {
+        font-size: 40px;
+    }
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.p {
+    direction: ltr;
+    text-align: start;
+}
+
+.pcom {
+    color: white;
+}
+
+.buttondiv4 {
+    color: #db5461;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}

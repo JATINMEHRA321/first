@@ -1,0 +1,30 @@
+.root {
+    display: flex;
+}
+
+.component1 {}
+
+.h1 {
+    text-align: center;
+    font-size: 72px;
+    color: white;
+
+    @media (max-width: 450px) {
+        font-size: 40px;
+    }
+}
+
+.p {
+    text-align: center;
+    font-size: 22px;
+    color: white;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.responsiveh1 {
+    width: 95%;
+}
